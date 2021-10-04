@@ -1,7 +1,7 @@
 import { animate } from 'framer-motion';
 import { useEffect, useRef } from 'react';
 
-const counter = ({ from, to }) => {
+const Counter = ({ from, to }) => {
   const ref = useRef();
 
   useEffect(() => {
@@ -23,4 +23,4 @@ const counter = ({ from, to }) => {
   return <span ref={ref} />;
 };
 
-export default counter;
+export default Counter;
