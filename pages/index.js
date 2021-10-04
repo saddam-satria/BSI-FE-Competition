@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import Header from '../layout/home/Header';
-import ServiceContent from '../layout/home/ServiceContent';
-import ChooseUs from '../layout/home/ChooseUs';
-import Teams from '../layout/home/Teams';
+import Header from '../components/layout/home/Header';
+import ServiceContent from '../components/layout/home/ServiceContent';
+import ChooseUs from '../components/layout/home/ChooseUs';
+import Teams from '../components/layout/home/Teams';
 
 const Home = () => {
   const [services] = useState([
