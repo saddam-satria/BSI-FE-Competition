@@ -26,7 +26,8 @@ export default function Projects({ data }) {
 }
 
 export async function getStaticProps() {
-  const url = 'http://localhost:3000/projects.json' || 'not-lose.netlify.app/projects.json';
+  // 'http://localhost:3000/projects.json'
+  const url = 'not-lose.netlify.app/projects.json';
   const res = await fetch(url);
   const data = await res.json();
 
