@@ -8,7 +8,7 @@ const Chat = () => {
       <div className="p-2 w-80 flex " onClick={() => setActive(!active)}>
         <Image className="ml-auto" width={56} height={56} src="/img/home/icons/robot.png" alt="chat bot" />
         <div className="flex items-center p-1">
-          <h5 className="text-lg font-medium">Hai, I'm !lose assisten </h5>
+          <h5 className="text-lg font-medium">Hai, Im !lose assisten </h5>
         </div>
       </div>
       <div className={` bg-red-400 ${active ? 'w-80 sm:w-96 block' : 'w-60 sm:w-80 hidden'} p-1 rounded-t-xl`}>

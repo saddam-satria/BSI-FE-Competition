@@ -9,8 +9,12 @@ export default function Card({ title, img, subTitle, tags }) {
         <h5 className="text-xl text-primary font-bold capitalize">{title}</h5>
         <h6 className="text-lg my-2 text-secondary font-medium capitalize">{subTitle}</h6>
         <div className="flex justify-between">
-          {tags.map((tag) => {
-            return <span className="py-1 px-2 sm:px-3 xl:px-4 rounded-md bg-green-200 text-lg capitalize">{tag}</span>;
+          {tags.map((tag, index) => {
+            return (
+              <span key={index} className="py-1 px-2 sm:px-3 xl:px-4 rounded-md bg-green-200 text-lg capitalize">
+                {tag}
+              </span>
+            );
           })}
         </div>
       </div>
