@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "title": "web gallery",
+      "subTitle": "web gallery pixabay ",
+      "img": "/img/projects/saddam/gallery.jpg",
+      "tags": ["web development"]
+    },
+    {
+      "title": "E-Learning",
+      "subTitle": "Learning management system ",
+      "img": "/img/projects/saddam/auth.jpg",
+      "tags": ["web development"]
+    },
+    {
+      "title": "raja solusi indonesia",
+      "subTitle": "landing page legalilty company",
+      "img": "/img/projects/saddam/rajasolusi.jpg",
+      "tags": ["web seo"]
+    },
+    {
+      "title": "kata aldi",
+      "subTitle": "book cover",
+      "img": "/img/projects/aldi/book-cover.png",
+      "tags": ["Graphics Design"]
+    },
+    {
+      "title": "taichan poster",
+      "subTitle": "food poster restaurant",
+      "img": "/img/projects/aldi/poster.png",
+      "tags": ["Graphics Design"]
+    },
+    {
+      "title": "veelwinst logo",
+      "subTitle": "company Logo Branding ",
+      "img": "/img/projects/aldi/logov.png",
+      "tags": ["Graphics Design"]
+    },
+    {
+      "title": "banner design",
+      "subTitle": "isra mi'raj banner",
+      "img": "/img/projects/aldi/banner.png",
+      "tags": ["Graphics Design"]
+    },
+    {
+      "title": "website demo",
+      "subTitle": "mockup website design",
+      "img": "/img/projects/saddam/demo.jpg",
+      "tags": ["Graphics Design"]
+    }
+  ]
+}

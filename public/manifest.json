@@ -1,0 +1,10 @@
+{
+  "name": "!lose website",
+  "short_name": "!lose",
+  "description": "Jasa Pembuatan website",
+  "start_url ": ".",
+  "theme_color": "#eee",
+  "background_color": "#fff",
+  "display": "standalone",
+  "icons": []
+}
