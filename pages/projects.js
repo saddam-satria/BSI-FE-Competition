@@ -26,14 +26,12 @@ export default function Projects({ data }) {
 }
 
 export async function getStaticProps() {
-  // 'http://localhost:3000/projects.json'
-  const url = 'not-lose.netlify.app/projects.json';
+  const url = 'https://my-json-server.typicode.com/saddam-satria/lomba-bsi/master/db.json/projects';
   const res = await fetch(url);
   const data = await res.json();
-
   return {
     props: {
-      data: data.projects,
+      data,
     },
     revalidate: 1,
   };
