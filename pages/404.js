@@ -25,7 +25,7 @@ export default function Custom404() {
   return (
     <div className="dark:bg-dark dark:text-white h-screen">
       <motion.div initial="out" animate="in" variants={variants} className="flex flex-col items-center">
-        <Image className="object-cover " width={360} height={260} src="/img/error.png" />
+        <Image className="object-cover " alt="page not  found" width={360} height={260} src="/img/error.png" />
         <h4 className="font-main sm:text-2xl text-lg font-medium my-2">Page does'nt exist, back to home</h4>
       </motion.div>
     </div>

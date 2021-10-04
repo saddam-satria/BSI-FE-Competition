@@ -1,7 +1,5 @@
 import { useState } from 'react';
-import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { useEffect } from 'react';
 
 const Chat = () => {
   const [active, setActive] = useState(false);

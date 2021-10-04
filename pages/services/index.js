@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const services = () => {
+const Services = () => {
   const variants = {
     out: {
       opacity: '0%',
@@ -18,4 +18,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default Services;

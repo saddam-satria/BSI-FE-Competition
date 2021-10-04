@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
-export default function Card({ index, title, img, subTitle, tags }) {
+export default function Card({ title, img, subTitle, tags }) {
   return (
-    <div key={index} className="dark:bg-white shadow-lg rounded-md">
+    <div className="dark:bg-white shadow-lg rounded-md">
       <Image className="object-cover" width={1200} height={512} src={img} alt={subTitle} />
 
       <div className="p-8">

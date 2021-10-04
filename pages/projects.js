@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import Card from '../components/Card';
 
-export default function projects({ data }) {
+export default function Projects({ data }) {
   const variants = {
     out: {
       opacity: '0%',
@@ -17,7 +17,7 @@ export default function projects({ data }) {
       <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 gap-4">
         {data.length
           ? data.map((item, index) => {
-              return <Card index={index} title={item.title} tags={item.tags} subTitle={item.subTitle} img={item.img} />;
+              return <Card key={index} title={item.title} tags={item.tags} subTitle={item.subTitle} img={item.img} />;
             })
           : null}
       </div>

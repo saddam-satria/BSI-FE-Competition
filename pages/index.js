@@ -1,13 +1,11 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-
-import Footer from '../components/Footer';
 import Header from '../layout/home/Header';
 import ServiceContent from '../layout/home/ServiceContent';
 import ChooseUs from '../layout/home/ChooseUs';
 import Teams from '../layout/home/Teams';
 
-const home = () => {
+const Home = () => {
   const [services] = useState([
     {
       name: 'web development',
@@ -84,4 +82,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
