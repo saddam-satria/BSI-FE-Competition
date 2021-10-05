@@ -25,8 +25,8 @@
       "tags": ["Graphics Design"]
     },
     {
-      "title": "taichan poster",
-      "subTitle": "food poster restaurant",
+      "title": "taichan logo",
+      "subTitle": "food logo restaurant",
       "img": "/img/projects/aldi/poster.png",
       "tags": ["Graphics Design"]
     },
@@ -46,7 +46,31 @@
       "title": "website demo",
       "subTitle": "mockup website design",
       "img": "/img/projects/saddam/demo.jpg",
-      "tags": ["Graphics Design"]
+      "tags": ["web design"]
+    },
+    {
+      "title": "movie poster",
+      "subTitle": "short movie poster ",
+      "img": "/img/projects/rivan/posterFilm.jpg",
+      "tags": ["Graphics design"]
+    },
+    {
+      "title": "School Banner",
+      "subTitle": "Gradution Banner school",
+      "img": "/img/projects/rivan/bannerSchool.jpg",
+      "tags": ["Graphics design"]
+    },
+    {
+      "title": "Graduation Logo",
+      "subTitle": "Graduation Logo School",
+      "img": "/img/projects/rivan/logoGen.jpg",
+      "tags": ["Graphics design"]
+    },
+    {
+      "title": "vektor",
+      "subTitle": "vektor face",
+      "img": "/img/projects/rivan/vektor.jpg",
+      "tags": ["Graphics design"]
     }
   ]
 }
