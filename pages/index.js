@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 // import Header from '../components/layout/home/Header';
 import ServiceContent from '../components/layout/home/ServiceContent';
-// import ChooseUs from '../components/layout/home/ChooseUs';
+import ChooseUs from '../components/layout/home/ChooseUs';
 // import Teams from '../components/layout/home/Teams';
 // import Services from '../components/layout/home/Services';
 
@@ -77,8 +77,8 @@ const Home = () => {
     <motion.div variants={variants} transition={{ duration: 2 }} initial={'out'} animate={'in'}>
       {/* <Header />  */}
       <ServiceContent services={services} />
-      {/* <ChooseUs />
-      <Teams teams={teams} mouseEnterHandler={mouseEnterHandler} mouseLeaveHandler={mouseLeaveHandler} />
+      <ChooseUs />
+      {/* <Teams teams={teams} mouseEnterHandler={mouseEnterHandler} mouseLeaveHandler={mouseLeaveHandler} />
       <Services /> */}
     </motion.div>
   );
