@@ -13,18 +13,21 @@ const Home = () => {
       subname: 'we develop your website',
       img: '/img/home/icons/web-icons.png',
       alt: 'website development',
+      link: '#web',
     },
     {
       name: 'android developer',
       subname: 'we develop your apps',
       img: '/img/home/icons/android-icons.png',
       alt: 'android development',
+      link: '#android',
     },
     {
       name: 'graphics design',
       subname: 'we design for your brands',
       img: '/img/home/icons/poster-icons.png',
       alt: 'graphics design',
+      link: '#design',
     },
   ]);
 

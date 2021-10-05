@@ -8,12 +8,12 @@ export default function Projects({ data }) {
       y: '100%',
     },
     in: {
-      opacity: '80%',
+      opacity: '100%',
       y: 0,
     },
   };
   return (
-    <motion.div variants={variants} initial="out" animate="in">
+    <motion.div variants={variants} transition={{ duration: 2 }} initial="out" animate="in">
       <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 gap-4">
         {data.length
           ? data.map((item, index) => {
@@ -25,7 +25,7 @@ export default function Projects({ data }) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const url = 'https://my-json-server.typicode.com/saddam-satria/lomba-bsi/master/db.json/projects';
   const res = await fetch(url);
   const data = await res.json();
@@ -33,6 +33,5 @@ export async function getStaticProps() {
     props: {
       data,
     },
-    revalidate: 1,
   };
 }

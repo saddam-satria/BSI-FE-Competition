@@ -17,8 +17,8 @@ export default function Card({ title, img, subTitle, tags }) {
                   {tag}
                 </span>
 
-                <Link href={`https://wa.me/6285718483826?text=${img}`}>
-                  <a target="_blank" className="mt-2 p-2 w-40 text-white rounded-xl text-center bg-blue-600 ">
+                <Link href={`https://wa.me/6285718483826?text=${'https://not-lose.netlify.app' + img}`}>
+                  <a target="_blank" className="mt-2 p-2 w-28 text-white rounded-xl text-center bg-blue-600 ">
                     Order Now
                   </a>
                 </Link>

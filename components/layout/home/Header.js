@@ -47,7 +47,7 @@ const Header = () => {
               autoComplete="email"
               name="email"
               placeholder="enter your email"
-              className="px-3 w-full sm:w-auto sm:px-5 mb-4 py-2 rounded mr-2 shadow-md focus:border-none focus:outline-none focus-within:text-gray-600 focus:animate-pulse"
+              className="px-3 w-full sm:w-auto sm:px-5 mb-4 py-2 rounded mr-2 shadow-md focus:border-none focus:outline-none focus-within:text-gray-600 "
             />
             <motion.button
               type="submit"
@@ -60,7 +60,15 @@ const Header = () => {
             </motion.button>
           </form>
         </div>
-        {status === '' ? '' : status === 'success' ? <span className="py-2 px-4 bg-green-500 text-white lg:w-1/2 rounded-lg">Success</span> : <span className="py-2 px-4 bg-red-500 text-white  lg:w-1/2 rounded-lg">Error</span>}
+        {status === '' ? (
+          ''
+        ) : status === 'success' ? (
+          <motion.span initial={{ opacity: '100%' }} animate={{ opacity: 0 }} transition={{ duration: 3 }} className="py-2 px-4 bg-green-500 text-white lg:w-1/2 rounded-lg">
+            Success
+          </motion.span>
+        ) : (
+          <span className="py-2 px-4 bg-red-500 text-white  lg:w-1/2 rounded-lg">Error</span>
+        )}
       </div>
       <div className="flex justify-center  xl:order-2 order-1">
         <Image className="object-contain" alt="Jasa Pembuatan Website" width={512} height={463} src="/img/home/homeBg.png" />
