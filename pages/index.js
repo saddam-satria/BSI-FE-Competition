@@ -4,6 +4,7 @@ import Header from '../components/layout/home/Header';
 import ServiceContent from '../components/layout/home/ServiceContent';
 import ChooseUs from '../components/layout/home/ChooseUs';
 import Teams from '../components/layout/home/Teams';
+import Services from '../components/layout/home/Services';
 
 const Home = () => {
   const [services] = useState([
@@ -78,6 +79,7 @@ const Home = () => {
       <ServiceContent services={services} />
       <ChooseUs />
       <Teams teams={teams} mouseEnterHandler={mouseEnterHandler} mouseLeaveHandler={mouseLeaveHandler} />
+      <Services />
     </motion.div>
   );
 };

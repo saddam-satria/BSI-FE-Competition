@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import * as Ai from 'react-icons/ai';
+import Link from 'next/link';
 
 const ServiceContent = ({ services }) => {
   return (
@@ -16,7 +17,9 @@ const ServiceContent = ({ services }) => {
                 <h4 className=" text-lg font-bold capitalize text-primary dark:text-gray-900">{service.name}</h4>
                 <div className="flex">
                   <h6 className="text-gray-400 text-md font-medium capitalize ">{service.subname}</h6>
-                  <Ai.AiOutlineArrowRight className="animate-bounce cursor-pointer ml-auto text-lg text-primary hover:text-secondary" />
+                  <Link href="#web">
+                    <Ai.AiOutlineArrowRight className="animate-bounce cursor-pointer ml-auto text-lg text-primary hover:text-secondary" />
+                  </Link>
                 </div>
               </div>
             </div>
