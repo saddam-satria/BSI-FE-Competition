@@ -17,9 +17,8 @@ const ServiceContent = ({ services }) => {
                 <h4 className=" text-lg font-bold capitalize text-primary dark:text-gray-900">{service.name}</h4>
                 <div className="flex">
                   <h6 className="text-gray-400 text-md font-medium capitalize ">{service.subname}</h6>
-                  <Link href="/web">
-                    <Ai.AiOutlineArrowRight className="animate-bounce cursor-pointer ml-auto text-lg text-primary hover:text-secondary" />
-                  </Link>
+
+                  <Ai.AiOutlineArrowRight className="animate-bounce cursor-pointer ml-auto text-lg text-primary hover:text-secondary" />
                 </div>
               </div>
             </div>
