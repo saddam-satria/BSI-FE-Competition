@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import { motion } from 'framer-motion';
 // import Header from '../components/layout/home/Header';
 // import ServiceContent from '../components/layout/home/ServiceContent';
@@ -55,14 +55,14 @@ const Home = () => {
   //   },
   // ]);
 
-  // const variants = {
-  //   out: {
-  //     opacity: '0%',
-  //   },
-  //   in: {
-  //     opacity: '100%',
-  //   },
-  // };
+  const variants = {
+    out: {
+      opacity: '0%',
+    },
+    in: {
+      opacity: '100%',
+    },
+  };
 
   // const mouseEnterHandler = (_e, index) => {
   //   const message = document.querySelectorAll('.message-info');
