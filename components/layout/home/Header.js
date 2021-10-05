@@ -27,7 +27,7 @@ const Header = () => {
     }
   };
   return (
-    <div className="grid grid-cols-1 gap-3 xl:grid-cols-2">
+    <div className="grid grid-cols-1 2xl:grid-cols-2 gap-1">
       <div className="xl:order-1 xl:w-4/5 order-2  flex flex-col justify-center">
         <div>
           <h1 className="sm:text-lar text-3xl uppercase font-medium text-primary dark:text-white xl:tracking-wider">
