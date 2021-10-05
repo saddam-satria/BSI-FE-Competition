@@ -27,7 +27,7 @@ const Header = () => {
     }
   };
   return (
-    <div className="grid grid-cols-1 gap-1 xl:grid-cols-2">
+    <div className="grid grid-cols-1 gap-3 xl:grid-cols-2">
       <div className="xl:order-1 xl:w-4/5 order-2  flex flex-col justify-center">
         <div>
           <h1 className="sm:text-lar text-3xl uppercase font-medium text-primary dark:text-white xl:tracking-wider">
@@ -47,14 +47,14 @@ const Header = () => {
               autoComplete="email"
               name="email"
               placeholder="enter your email"
-              className="px-5 mb-4 py-2 rounded mr-2 shadow-md focus:border-none focus:outline-none focus-within:text-gray-600 focus:animate-pulse"
+              className="px-3 sm:px-5 mb-4 py-2 rounded mr-2 shadow-md focus:border-none focus:outline-none focus-within:text-gray-600 focus:animate-pulse"
             />
             <motion.button
               type="submit"
               whileHover={{
                 scale: 1,
               }}
-              className=" px-5 py-2 sm:px-8 text-white bg-primary hover:bg-secondary rounded-md dark:bg-blue-300 dark:text-black dark:hover:bg-blue-200"
+              className=" px-3 py-2 sm:px-8 text-white bg-primary hover:bg-secondary rounded-md dark:bg-blue-300 dark:text-black dark:hover:bg-blue-200"
             >
               subscribe
             </motion.button>
