@@ -15,7 +15,7 @@ const Teams = ({ teams, mouseEnterHandler, mouseLeaveHandler }) => {
             <div className="flex my-12 md:justify-center 2xl:justify-start">
               <Image alt="teamwork" width={412} height={412} src="/img/home/usBg.png" />
             </div>
-            <div className="grid grid-cols-2  lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
               {teams.map((team, index) => {
                 return (
                   <div key={index}>

@@ -73,7 +73,7 @@ const Home = () => {
   };
 
   return (
-    <motion.div variants={variants} transition={{ duration: 2 }} initial={'out'} animate={'in'}>
+    <motion.div className="dark:bg-dark" variants={variants} transition={{ duration: 2 }} initial={'out'} animate={'in'}>
       <Header />
       <ServiceContent services={services} />
       <ChooseUs />
