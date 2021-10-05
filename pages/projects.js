@@ -5,11 +5,11 @@ export default function Projects({ data }) {
   const variants = {
     out: {
       opacity: '0%',
-      x: '100%',
+      y: '100%',
     },
     in: {
       opacity: '80%',
-      x: 0,
+      y: 0,
     },
   };
   return (

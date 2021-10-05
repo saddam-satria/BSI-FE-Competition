@@ -4,7 +4,7 @@ import Counter from '../../Counter';
 const ChooseUs = () => {
   return (
     <>
-      <div className="flex flex-col  items-center xl:mt-32 mx-8 sm:mx-0">
+      <div className="flex flex-col  items-center xl:mt-32">
         <div className="flex flex-col my-12 items-center">
           <h3 className="font-bold text-3xl capitalize text-primary dark:text-white">Why Choosing</h3>
           <h3 className="font-bold text-3xl text-primary dark:text-white">US</h3>
