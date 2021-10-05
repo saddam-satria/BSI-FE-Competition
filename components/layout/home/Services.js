@@ -1,15 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Gear from '../../Gear';
 
 const Services = () => {
   return (
     <>
       <div className="py-12 dark:bg-dark bg-white rounded-lg ">
-        <div className="flex justify-center">
-          <span className="p-4  rounded-xl bg-blue-300 animate-spin border-2 hover:animate-none"></span>
-          <span className="p-4  rounded-xl bg-blue-300 animate-spin border-2 hover:animate-none"></span>
-          <span className="p-4  rounded-xl bg-blue-300 animate-spin border-2 hover:animate-none"></span>
-        </div>
+        <Gear />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-2" id="web">
           <div className="order-2 lg:order-1">
             <div className="flex flex-col justify-center items-center h-full p-4">
