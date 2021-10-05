@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className=" bg-transparent py-3">
-        <div className="mx-8 2xl:mx-48">
+        <div className="mx-4 2xl:mx-48">
           <div className="flex py-3 px-4 sm:px-0">
             <Link href="/">
               <a className="text-primary hover:text-secondary dark:text-white dark:hover:text-blue-100 font-brand text-2xl sm:text-3xl font-medium">

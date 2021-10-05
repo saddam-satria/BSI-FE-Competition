@@ -30,7 +30,7 @@ const Home = () => {
   const [teams] = useState([
     {
       name: 'saddam',
-      position: 'front end developer',
+      position: 'front end dev',
       img: '/img/home/team/saddam.png',
       facebook: '',
       instagram: 'https://instagram.com/saddamsatria_12',
