@@ -47,7 +47,7 @@ const Header = () => {
               autoComplete="email"
               name="email"
               placeholder="enter your email"
-              className="px-3 sm:px-5 mb-4 py-2 rounded mr-2 shadow-md focus:border-none focus:outline-none focus-within:text-gray-600 focus:animate-pulse"
+              className="px-3 w-1/2 sm:w-auto sm:px-5 mb-4 py-2 rounded mr-2 shadow-md focus:border-none focus:outline-none focus-within:text-gray-600 focus:animate-pulse"
             />
             <motion.button
               type="submit"
