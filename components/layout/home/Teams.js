@@ -5,8 +5,8 @@ import * as Fa from 'react-icons/fa';
 
 const Teams = ({ teams, mouseEnterHandler, mouseLeaveHandler }) => {
   return (
-    <div>
-      <div className="dark:bg-dark">
+    <>
+      <div className="">
         <div className="py-16">
           <div className="my-14">
             <h3 className="font-bold text-2xl capitalize text-primary dark:text-white">Who are we ?</h3>
@@ -59,7 +59,7 @@ const Teams = ({ teams, mouseEnterHandler, mouseLeaveHandler }) => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

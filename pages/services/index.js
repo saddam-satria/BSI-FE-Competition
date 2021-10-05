@@ -12,7 +12,7 @@ const Services = () => {
     },
   };
   return (
-    <motion.div variants={variants} initial="out" animate="in" className="dark:text-white flex">
+    <motion.div variants={variants} initial="out" animate="in" className="flex">
       <h1>Hell</h1>
     </motion.div>
   );

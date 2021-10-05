@@ -16,9 +16,11 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <div className="dark:bg-dark h-screen">
-        <Navbar />
-        <div className="dark:bg-dark">
-          <div className="mx-8 sm:mx-12 2xl:mx-48 dark:bg-dark">
+        <div className="mb-4 dark:bg-dark">
+          <Navbar />
+        </div>
+        <div className="dark:bg-dark pb-16">
+          <div className="mx-8 sm:mx-12 2xl:mx-48">
             <Component {...pageProps} />
           </div>
         </div>

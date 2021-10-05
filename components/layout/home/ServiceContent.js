@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const ServiceContent = ({ services }) => {
   return (
-    <div>
+    <>
       <div className="flex-1 flex-col my-8 ">
         <h3 className="  font-bold text-2xl capitalize text-primary dark:text-white">Can we help you ?</h3>
       </div>
@@ -26,7 +26,7 @@ const ServiceContent = ({ services }) => {
           );
         })}
       </div>
-    </div>
+    </>
   );
 };
 

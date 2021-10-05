@@ -38,7 +38,7 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <>
       <nav className=" bg-transparent py-3">
         <div className="mx-4 2xl:mx-48">
           <div className="flex py-3 px-4 sm:px-0">
@@ -72,7 +72,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
 

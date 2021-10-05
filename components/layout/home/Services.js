@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const Services = () => {
   return (
-    <div>
-      <div className="my-12 py-12 dark:bg-white bg-white rounded-lg ">
+    <>
+      <div className="py-12 dark:bg-white bg-white rounded-lg ">
         <div className="flex justify-center">
           <span className="p-4  rounded-xl bg-blue-300 animate-spin border-2 hover:animate-none"></span>
           <span className="p-4  rounded-xl bg-blue-300 animate-spin border-2 hover:animate-none"></span>
@@ -30,6 +30,7 @@ const Services = () => {
             <Image className="object-contain" src="/img/home/servicesWebBg.png" width={812} height={812} alt="web development" />
           </div>
         </div>
+        <hr />
 
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-2">
           <div className="order-2">
@@ -51,7 +52,7 @@ const Services = () => {
             <Image className="object-contain" src="/img/home/servicesWebBg.png" width={812} height={812} alt="web development" />
           </div>
         </div>
-
+        <hr />
         <div className="grid grid-cols-1 gap-3 xl:grid-cols-2">
           <div className="order-2 lg:order-1">
             <div className="flex flex-col justify-center items-center h-full p-4">
@@ -73,7 +74,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
