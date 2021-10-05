@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 // import Header from '../components/layout/home/Header';
 import ServiceContent from '../components/layout/home/ServiceContent';
 import ChooseUs from '../components/layout/home/ChooseUs';
-// import Teams from '../components/layout/home/Teams';
+import Teams from '../components/layout/home/Teams';
 // import Services from '../components/layout/home/Services';
 
 const Home = () => {
@@ -28,32 +28,32 @@ const Home = () => {
     },
   ]);
 
-  // const [teams] = useState([
-  //   {
-  //     name: 'saddam',
-  //     position: 'front end dev',
-  //     img: '/img/home/team/saddam.png',
-  //     facebook: '',
-  //     instagram: 'https://instagram.com/saddamsatria_12',
-  //     linkedin: 'https://id.linkedin.com/in/saddam-satria-ardhi-837570170',
-  //   },
-  //   {
-  //     name: 'rivan apta',
-  //     position: 'Graphic Designer',
-  //     img: '/img/home/team/rivan.png',
-  //     facebook: '',
-  //     instagram: '',
-  //     linkedin: '',
-  //   },
-  //   {
-  //     name: 'aldi harlian',
-  //     position: 'graphic designer',
-  //     img: '/img/home/team/aldi.png',
-  //     facebook: '',
-  //     instagram: '',
-  //     linkedin: '',
-  //   },
-  // ]);
+  const [teams] = useState([
+    {
+      name: 'saddam',
+      position: 'front end dev',
+      img: '/img/home/team/saddam.png',
+      facebook: '',
+      instagram: 'https://instagram.com/saddamsatria_12',
+      linkedin: 'https://id.linkedin.com/in/saddam-satria-ardhi-837570170',
+    },
+    {
+      name: 'rivan apta',
+      position: 'Graphic Designer',
+      img: '/img/home/team/rivan.png',
+      facebook: '',
+      instagram: '',
+      linkedin: '',
+    },
+    {
+      name: 'aldi harlian',
+      position: 'graphic designer',
+      img: '/img/home/team/aldi.png',
+      facebook: '',
+      instagram: '',
+      linkedin: '',
+    },
+  ]);
 
   const variants = {
     out: {
@@ -78,8 +78,8 @@ const Home = () => {
       {/* <Header />  */}
       <ServiceContent services={services} />
       <ChooseUs />
-      {/* <Teams teams={teams} mouseEnterHandler={mouseEnterHandler} mouseLeaveHandler={mouseLeaveHandler} />
-      <Services /> */}
+      <Teams teams={teams} mouseEnterHandler={mouseEnterHandler} mouseLeaveHandler={mouseLeaveHandler} />
+      {/* <Services /> */}
     </motion.div>
   );
 };
