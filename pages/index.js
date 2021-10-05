@@ -64,14 +64,14 @@ const Home = () => {
     },
   };
 
-  // const mouseEnterHandler = (_e, index) => {
-  //   const message = document.querySelectorAll('.message-info');
-  //   message[index].classList.remove('hidden');
-  // };
-  // const mouseLeaveHandler = (_e, index) => {
-  //   const message = document.querySelectorAll('.message-info');
-  //   message[index].classList.add('hidden');
-  // };
+  const mouseEnterHandler = (_e, index) => {
+    const message = document.querySelectorAll('.message-info');
+    message[index].classList.remove('hidden');
+  };
+  const mouseLeaveHandler = (_e, index) => {
+    const message = document.querySelectorAll('.message-info');
+    message[index].classList.add('hidden');
+  };
 
   return (
     <motion.div variants={variants} transition={{ duration: 2 }} initial={'out'} animate={'in'}>
