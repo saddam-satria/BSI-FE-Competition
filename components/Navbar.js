@@ -31,6 +31,7 @@ const Navbar = () => {
 
   useEffect(() => {
     mode ? document.documentElement.classList.add('dark') : document.documentElement.classList.remove('dark');
+    mode ? (document.body.style.backgroundColor = '#202020') : (document.body.style.backgroundColor = 'rgb(254, 250, 253) ');
   }, [mode]);
 
   const themeHandler = () => {

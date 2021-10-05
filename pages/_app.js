@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
         <title>!lose</title>
       </Head>
 
-      <div className="dark:bg-dark h-screen">
+      <div className="dark:bg-dark">
         <div className="mb-4 dark:bg-dark">
           <Navbar />
         </div>
