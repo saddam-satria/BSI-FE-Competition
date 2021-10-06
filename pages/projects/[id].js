@@ -33,7 +33,7 @@ export async function getStaticPaths() {
     params: { id: item.tags[0].split(' ')[0].toLowerCase() },
   }));
 
-  return { paths, fallback: 'blocking' };
+  return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params }) {
