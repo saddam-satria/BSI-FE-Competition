@@ -1,10 +1,7 @@
 import Card from '../../components/Card';
 import { motion } from 'framer-motion';
-import { useRouter } from 'next/router';
-import Loaders from '../../components/Loaders';
 
-export default function project({ data }) {
-  const router = useRouter();
+export default function ProjectDetail({ data }) {
   const variants = {
     out: {
       opacity: '0%',
@@ -15,9 +12,6 @@ export default function project({ data }) {
       y: 0,
     },
   };
-  if (router.isFallback) {
-    return <Loaders />;
-  }
 
   return (
     <motion.div variants={variants} transition={{ duration: 2 }} initial="out" animate="in">
@@ -39,7 +33,7 @@ export async function getStaticPaths() {
     params: { id: item.tags[0].split(' ')[0].toLowerCase() },
   }));
 
-  return { paths, fallback: true };
+  return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params }) {
