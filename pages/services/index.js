@@ -11,11 +11,7 @@ const Services = () => {
       y: 0,
     },
   };
-  return (
-    <motion.div variants={variants} initial="out" animate="in" className="flex">
-      <h1>Hell</h1>
-    </motion.div>
-  );
+  return <motion.div variants={variants} initial="out" animate="in" className="flex"></motion.div>;
 };
 
 export default Services;

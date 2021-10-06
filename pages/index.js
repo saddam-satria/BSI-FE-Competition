@@ -27,7 +27,7 @@ const Home = () => {
       subname: 'we design for your brands',
       img: '/img/home/icons/poster-icons.png',
       alt: 'graphics design',
-      link: '#design',
+      link: '#graphics',
     },
   ]);
 
@@ -80,17 +80,23 @@ const Home = () => {
     {
       title: 'website development',
       subTitle: 'we design for your brand',
-      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis facere magni ipsam natus, esse delectus optio accusamus sint quisquam numquam consequuntur ut distinctio veniam reprehenderit earum placeat dolore temporibus libero exercitationem vitae totam est similique error ea. Suscipit, quisquam eius?',
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis facere magni ipsam natus, esse delectus optio accusamus sint quisquam numquam consequuntur ut distinctio veniam reprehenderit earum placeat ',
+      link: 'web',
+      img: '/img/home/servicesWebBg.png',
     },
     {
       title: 'android development',
       subTitle: 'we design for your brand',
-      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis facere magni ipsam natus, esse delectus optio accusamus sint quisquam numquam consequuntur ut distinctio veniam reprehenderit earum placeat dolore temporibus libero exercitationem vitae totam est similique error ea. Suscipit, quisquam eius?',
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis facere magni ipsam natus, esse delectus optio accusamus sint quisquam numquam consequuntur ut distinctio veniam reprehenderit earum placeat?',
+      link: 'android',
+      img: '/img/home/androidService.png',
     },
     {
       title: 'graphics desgin',
       subTitle: 'we design for your brand',
-      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis facere magni ipsam natus, esse delectus optio accusamus sint quisquam numquam consequuntur ut distinctio veniam reprehenderit earum placeat dolore temporibus libero exercitationem vitae totam est similique error ea. Suscipit, quisquam eius?',
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis facere magni ipsam natus, esse delectus optio accusamus sint quisquam numquam consequuntur ut distinctio veniam reprehenderit earum placeat?',
+      link: 'graphics',
+      img: '/img/home/graphicsService.png',
     },
   ]);
   return (

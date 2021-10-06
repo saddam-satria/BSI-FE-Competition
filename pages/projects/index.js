@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import Card from '../components/Card';
+import Card from '../../components/Card';
 
 export default function Projects({ data }) {
   const variants = {
@@ -26,8 +26,7 @@ export default function Projects({ data }) {
 }
 
 export async function getStaticProps() {
-  const url = 'https://my-json-server.typicode.com/saddam-satria/lomba-bsi/master/db.json/projects';
-  const res = await fetch(url);
+  const res = await fetch(process.env.URL);
   const data = await res.json();
   return {
     props: {

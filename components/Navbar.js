@@ -5,7 +5,7 @@ import * as Fa from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/router';
 
-const Navbar = () => {
+const Navbar = ({ mode, setMode }) => {
   const router = useRouter();
   const [menus] = useState([
     {
@@ -23,7 +23,6 @@ const Navbar = () => {
   ]);
 
   const [active, setAcitve] = useState(false);
-  const [mode, setMode] = useState(false);
 
   const sidebarHandler = () => {
     setAcitve(!active);

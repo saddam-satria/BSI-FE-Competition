@@ -12,7 +12,7 @@ const Teams = ({ teams, mouseEnterHandler, mouseLeaveHandler }) => {
             <h2 className="font-bold text-2xl sm:text-3xl capitalize text-primary dark:text-white">Who are we ?</h2>
           </div>
           <div className="grid grid-cols-1 2xl:grid-cols-2 gap-1">
-            <div className="flex my-12 md:justify-center 2xl:justify-start">
+            <div className="2xl:flex my-12 md:justify-center 2xl:justify-start sm:hidden ">
               <Image alt="teamwork" width={412} height={412} src="/img/home/usBg.png" />
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">

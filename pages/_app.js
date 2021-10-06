@@ -1,8 +1,12 @@
 import '../styles/globals.css';
 import Navbar from '../components/Navbar';
 import Head from 'next/head';
+import { useState } from 'react';
+import ArrowUp from '../components/arrowUp';
 
 function MyApp({ Component, pageProps }) {
+  const [mode, setMode] = useState(false);
+
   return (
     <>
       <Head>
@@ -17,13 +21,14 @@ function MyApp({ Component, pageProps }) {
 
       <div className="dark:bg-dark">
         <div className="mb-4 dark:bg-dark">
-          <Navbar />
+          <Navbar mode={mode} setMode={setMode} />
         </div>
         <div className="dark:bg-dark pb-16">
           <div className="mx-8 sm:mx-12 2xl:mx-48">
             <Component {...pageProps} />
           </div>
         </div>
+        <ArrowUp mode={mode} />
       </div>
     </>
   );
