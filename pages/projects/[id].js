@@ -37,7 +37,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const res = await fetch(process.env.URL);
+  const res = await fetch('https://my-json-server.typicode.com/saddam-satria/lomba-bsi/master/db.json/projects');
   const data = await res.json();
 
   const filterData = data.filter((item) => {
