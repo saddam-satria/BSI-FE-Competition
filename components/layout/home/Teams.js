@@ -9,7 +9,7 @@ const Teams = ({ teams, mouseEnterHandler, mouseLeaveHandler }) => {
       <div className="">
         <div className="py-16">
           <div className="my-14">
-            <h3 className="font-bold text-2xl capitalize text-primary dark:text-white">Who are we ?</h3>
+            <h2 className="font-bold text-2xl sm:text-3xl capitalize text-primary dark:text-white">Who are we ?</h2>
           </div>
           <div className="grid grid-cols-1 2xl:grid-cols-2 gap-1">
             <div className="flex my-12 md:justify-center 2xl:justify-start">
@@ -19,14 +19,14 @@ const Teams = ({ teams, mouseEnterHandler, mouseLeaveHandler }) => {
               {teams.map((team, index) => {
                 return (
                   <div key={index}>
-                    <span className={`p-4 message-info bg-blue-100 rounded-xl z-10 shadow-lg hidden absolute`}>Hai, I'm {team.name}</span>
+                    <span className={`p-4 message-info text-mobile-secondary-text bg-blue-100 rounded-xl z-10 shadow-lg hidden absolute`}>Hai, I'm {team.name}</span>
                     <motion.div whileHover={{ scale: 1.05 }} onMouseEnter={(e) => mouseEnterHandler(e, index)} onMouseLeave={(e) => mouseLeaveHandler(e, index)} className="cursor-pointer lg:w-full p-4 bg-white shadow-lg rounded-md">
                       <div className="flex justify-center">
                         <Image alt={team.name} width={312} height={312} src={team.img} />
                       </div>
                       <div className="py-12">
-                        <h4 className="mb-4 text-2xl font-bold capitalize text-primary dark:text-gray-900">{team.name}</h4>
-                        <h5 className="text-gray-400 text-md font-medium capitalize ">{team.position}</h5>
+                        <h4 className="mb-2 text-lg sm:text-xl font-bold capitalize text-primary dark:text-gray-900">{team.name}</h4>
+                        <h5 className="text-gray-400 text-lg sm:text-xl font-medium capitalize ">{team.position}</h5>
                         <div className="mt-2 flex">
                           <motion.span className="hover:text-blue-500" whileHover={{ scale: 1.5 }}>
                             <Link href={team.facebook}>

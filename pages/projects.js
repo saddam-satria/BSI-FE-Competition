@@ -25,7 +25,7 @@ export default function Projects({ data }) {
   );
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const url = 'https://my-json-server.typicode.com/saddam-satria/lomba-bsi/master/db.json/projects';
   const res = await fetch(url);
   const data = await res.json();

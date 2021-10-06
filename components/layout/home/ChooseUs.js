@@ -6,9 +6,9 @@ const ChooseUs = () => {
     <>
       <div className="flex flex-col  items-center xl:mt-32">
         <div className="flex flex-col my-12 items-center">
-          <h3 className="font-bold text-3xl capitalize text-primary dark:text-white">Why Choosing</h3>
-          <h3 className="font-bold text-3xl text-primary dark:text-white">US</h3>
-          <h5 className="text-secondary text-lg dark:text-gray-300">choose your real partner</h5>
+          <h2 className="font-bold text-2xl sm:text-3xl capitalize text-primary dark:text-white">Why Choosing</h2>
+          <h2 className="font-bold text-2xl sm:text-3xl text-primary dark:text-white">US</h2>
+          <h4 className="text-secondary text-lg sm:text-xl dark:text-gray-300">choose your real partner</h4>
         </div>
         <Image alt="Jasa Pembuatan Website" width={680} height={512} src="/img/home/chooseBg.png" />
       </div>

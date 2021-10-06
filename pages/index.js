@@ -76,13 +76,30 @@ const Home = () => {
     message[index].classList.add('hidden');
   };
 
+  const [serviceDetail] = useState([
+    {
+      title: 'website development',
+      subTitle: 'we design for your brand',
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis facere magni ipsam natus, esse delectus optio accusamus sint quisquam numquam consequuntur ut distinctio veniam reprehenderit earum placeat dolore temporibus libero exercitationem vitae totam est similique error ea. Suscipit, quisquam eius?',
+    },
+    {
+      title: 'android development',
+      subTitle: 'we design for your brand',
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis facere magni ipsam natus, esse delectus optio accusamus sint quisquam numquam consequuntur ut distinctio veniam reprehenderit earum placeat dolore temporibus libero exercitationem vitae totam est similique error ea. Suscipit, quisquam eius?',
+    },
+    {
+      title: 'graphics desgin',
+      subTitle: 'we design for your brand',
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis facere magni ipsam natus, esse delectus optio accusamus sint quisquam numquam consequuntur ut distinctio veniam reprehenderit earum placeat dolore temporibus libero exercitationem vitae totam est similique error ea. Suscipit, quisquam eius?',
+    },
+  ]);
   return (
     <motion.div variants={variants} transition={{ duration: 2 }} initial={'out'} animate={'in'}>
       <Header />
       <ServiceContent services={services} />
       <ChooseUs />
       <Teams teams={teams} mouseEnterHandler={mouseEnterHandler} mouseLeaveHandler={mouseLeaveHandler} />
-      <Services />
+      <Services serviceDetail={serviceDetail} />
     </motion.div>
   );
 };

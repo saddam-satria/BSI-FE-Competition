@@ -20,11 +20,9 @@ module.exports = {
         dark: '#202020',
         sidebar: '#212121',
       },
-      letterSpacing: {
-        widest: '1px',
-      },
       fontSize: {
-        lar: '2em',
+        'mobile-paragraph': '1rem',
+        'mobile-secondary-text': '14px',
       },
     },
   },
