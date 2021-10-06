@@ -1,6 +1,8 @@
 import Card from '../../components/Card';
 import { motion } from 'framer-motion';
 
+const URL = 'https://my-json-server.typicode.com/saddam-satria/lomba-bsi/master/db.json/projects';
+
 export default function ProjectDetail({ data }) {
   const variants = {
     out: {
@@ -27,7 +29,7 @@ export default function ProjectDetail({ data }) {
 }
 
 export async function getStaticPaths() {
-  const res = await fetch(process.env.URL);
+  const res = await fetch(URL);
   const data = await res.json();
   const paths = data.map((item) => ({
     params: { id: item.tags[0].split(' ')[0].toLowerCase() },
@@ -37,7 +39,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const res = await fetch(process.env.URL);
+  const res = await fetch(URL);
   const data = await res.json();
 
   const filterData = data.filter((item) => {
