@@ -26,7 +26,7 @@ export default function project({ data }) {
 }
 
 export async function getStaticPaths() {
-  const res = await fetch(process.env.URL);
+  const res = await fetch('https://my-json-server.typicode.com/saddam-satria/lomba-bsi/master/db.json/projects');
   const data = await res.json();
   const paths = data.map((item) => ({
     params: { id: item.tags[0].split(' ')[0].toLowerCase() },
