@@ -4,7 +4,11 @@ import Link from 'next/link';
 export default function Card({ title, img, subTitle, tags }) {
   return (
     <div className="dark:bg-white shadow-lg rounded-md">
-      <Image className="object-cover" width={1200} height={512} src={img} alt={subTitle} />
+      <Link href={img}>
+        <a target="_blank">
+          <Image className="object-cover" width={1200} height={512} src={img} alt={subTitle} />
+        </a>
+      </Link>
 
       <div className="p-8">
         <h5 className="text-xl text-primary font-bold capitalize">{title}</h5>
