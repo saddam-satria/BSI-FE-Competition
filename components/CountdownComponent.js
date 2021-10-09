@@ -41,8 +41,8 @@ const CountdownComponent = () => {
       {countdown.map((count, index) => {
         return (
           <div key={index} className="flex flex-col p-4 sm:p-8 md:p-12 xl:p-24">
-            <span className="text-center text-primary font-bold text-3xl lg:text-4xl">{count.date}</span>
-            <h5 className="text-center font-medium text-xl">{count.tagName}</h5>
+            <span className="text-center text-primary font-bold text-3xl lg:text-4xl dark:text-white">{count.date}</span>
+            <h5 className="text-center font-medium text-xl dark:text-white">{count.tagName}</h5>
           </div>
         );
       })}
