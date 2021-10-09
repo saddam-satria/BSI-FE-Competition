@@ -80,14 +80,14 @@ const Home = () => {
   const [serviceDetail] = useState([
     {
       title: 'website development',
-      subTitle: 'we design for your brand',
+      subTitle: 'we create your website business',
       desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis facere magni ipsam natus, esse delectus optio accusamus sint quisquam numquam consequuntur ut distinctio veniam reprehenderit earum placeat ',
       link: 'web',
       img: '/img/home/servicesWebBg.png',
     },
     {
       title: 'android development',
-      subTitle: 'we design for your brand',
+      subTitle: 'we create your application business',
       desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis facere magni ipsam natus, esse delectus optio accusamus sint quisquam numquam consequuntur ut distinctio veniam reprehenderit earum placeat?',
       link: 'android',
       img: '/img/home/androidService.png',
