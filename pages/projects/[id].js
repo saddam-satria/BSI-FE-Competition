@@ -50,5 +50,6 @@ export async function getStaticProps({ params }) {
     props: {
       data: filterData,
     },
+    revalidate: 1,
   };
 }

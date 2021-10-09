@@ -44,7 +44,7 @@ const Navbar = ({ mode, setMode }) => {
           <div className="flex py-3 px-4 sm:px-0">
             <Link href="/">
               <a className="text-primary hover:text-secondary dark:text-white dark:hover:text-blue-100 font-brand text-2xl sm:text-3xl font-medium">
-                <Image className="object-contain" width={55} height={34} src="/img/home/icons/logo.png" alt="Logo !lose" />
+                <Image className="object-contain" width={69} height={45} src="/img/home/icons/logo-light.png" alt="Logo !lose" />
               </a>
             </Link>
             <div className="ml-auto mr-2 sm:hidden">
