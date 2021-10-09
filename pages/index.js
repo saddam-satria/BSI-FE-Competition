@@ -35,7 +35,7 @@ const Home = () => {
   const [teams] = useState([
     {
       name: 'saddam',
-      position: 'front end dev',
+      position: 'website developer',
       img: '/img/home/team/saddam.png',
       facebook: '',
       instagram: 'https://instagram.com/saddamsatria_12',
@@ -43,7 +43,7 @@ const Home = () => {
     },
     {
       name: 'rivan apta',
-      position: 'Graphic Designer',
+      position: 'Graphics Designer',
       img: '/img/home/team/rivan.png',
       facebook: '',
       instagram: 'https://www.instagram.com/rivanapta/',
@@ -51,7 +51,7 @@ const Home = () => {
     },
     {
       name: 'aldi harlian',
-      position: 'graphic designer',
+      position: 'graphics designer',
       img: '/img/home/team/aldi.png',
       facebook: '',
       instagram: '',
