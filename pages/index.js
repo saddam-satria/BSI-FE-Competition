@@ -5,7 +5,7 @@ import ServiceContent from '../components/layout/home/ServiceContent';
 import ChooseUs from '../components/layout/home/ChooseUs';
 import Teams from '../components/layout/home/Teams';
 import Services from '../components/layout/home/Services';
-import Countdown from '../components/layout/home/countdown';
+import Countdown from '../components/layout/home/Countdown';
 
 const Home = () => {
   const [services] = useState([
