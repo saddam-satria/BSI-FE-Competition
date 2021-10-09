@@ -45,8 +45,8 @@ const Home = () => {
       position: 'Graphic Designer',
       img: '/img/home/team/rivan.png',
       facebook: '',
-      instagram: '',
-      linkedin: '',
+      instagram: 'https://www.instagram.com/rivanapta/',
+      linkedin: 'https://www.linkedin.com/in/rivan-apta-kusuma-056082148/',
     },
     {
       name: 'aldi harlian',
