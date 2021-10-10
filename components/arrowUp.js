@@ -5,7 +5,7 @@ const arrowUp = ({ mode }) => {
   const router = useRouter();
 
   const onClickHandler = () => {
-    router.push(router.asPath);
+    router.push(router.asPath === '/#web' ? '/' : router.asPath === '/#graphics' ? '/' : router.asPath === '/#android' ? '/' : '/');
   };
 
   return (
