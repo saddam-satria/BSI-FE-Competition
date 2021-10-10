@@ -20,12 +20,6 @@ export default function Card({ title, img, subTitle, tags }) {
                 <span key={index} className="py-1 px-2 sm:px-3 xl:px-4 rounded-md bg-green-200 text-lg capitalize">
                   {tag}
                 </span>
-
-                <Link href={`https://wa.me/6285718483826?text=${'https://not-lose.netlify.app' + img}`} prefetch={false}>
-                  <a target="_blank" className="mt-2 p-2 w-28 text-white rounded-xl text-center bg-blue-600 ">
-                    Order Now
-                  </a>
-                </Link>
               </div>
             );
           })}
