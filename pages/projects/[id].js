@@ -18,11 +18,13 @@ export default function ProjectDetail({ data }) {
   return (
     <motion.div variants={variants} transition={{ duration: 2 }} initial="out" animate="in">
       <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 gap-4">
-        {data.length
-          ? data.map((item, index) => {
-              return <Card key={index} title={item.title} tags={item.tags} subTitle={item.subTitle} img={item.img} />;
-            })
-          : null}
+        {data.length ? (
+          data.map((item, index) => {
+            return <Card key={index} title={item.title} tags={item.tags} subTitle={item.subTitle} img={item.img} />;
+          })
+        ) : (
+          <h1>Not Available</h1>
+        )}
       </div>
     </motion.div>
   );
@@ -50,6 +52,5 @@ export async function getStaticProps({ params }) {
     props: {
       data: filterData,
     },
-   
   };
 }

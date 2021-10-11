@@ -17,7 +17,7 @@ const Services = ({ serviceDetail }) => {
                       <h3 className="font-bold text-primary text-xl sm:text-2xl capitalize dark:text-white">{service.title}</h3>
                       <h4 className="font-medium text-secondary text-lg sm:text-xl lowercase dark:text-white">{service.subTitle}</h4>
                       <p className="text-gray-700  text-base sm:text-lg font-light my-4 mb-8 dark:text-gray-300">{service.desc}</p>
-                      <Link href={`/projects/${service.link}`}>
+                      <Link href={`/projects/${service.link === 'android' ? '' : service.link}`}>
                         <a className="p-2 px-4 capitalize rounded-md text-white bg-blue-600">see projects</a>
                       </Link>
                     </div>

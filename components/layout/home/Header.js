@@ -36,7 +36,7 @@ const Header = () => {
           </h1>
         </div>
         <p className="text-gray-700 text-base sm:text-lg font-light my-4 dark:text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quidem nisi et cumque quis recusandae ullam voluptatem, nesciunt ducimus, fugiat doloribus, quas quasi velit quam rem id vero harum optio!
+          We can help your business become a full service technology. In today's era a business must use digital technology. We are technology professionals, trust us, then your business will become a digital technology service{' '}
         </p>
         <div className="py-5">
           <form onSubmit={onSubmit}>
