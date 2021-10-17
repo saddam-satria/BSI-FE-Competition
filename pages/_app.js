@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:title" content="!lose" key="!lose" />
         <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <title>!lose</title>
       </Head>
