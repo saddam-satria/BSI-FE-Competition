@@ -4,7 +4,7 @@ const CountdownComponent = () => {
   const [countdown, setCountdown] = useState([]);
 
   useEffect(() => {
-    const nextMonth = new Date('October 18, 2021 00:00:00').getTime();
+    const nextMonth = new Date('October 23, 2021 00:00:00').getTime();
 
     setInterval(() => {
       const now = new Date().getTime();
