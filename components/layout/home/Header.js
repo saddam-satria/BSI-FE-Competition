@@ -27,8 +27,8 @@ const Header = () => {
     }
   };
   return (
-    <div className="grid grid-cols-1 2xl:grid-cols-2 gap-1">
-      <div className="2xl:order-1 xl:w-4/5 order-2 my-12  flex flex-col justify-center">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-1">
+      <div className="lg:order-1 xl:w-4/5 order-2 my-12  flex flex-col justify-center">
         <div>
           <h1 className="text-2xl sm:text-4xl uppercase font-medium text-primary dark:text-white xl:tracking-wider">
             <strong className="sm:text-5xl sm:text-blue-700 sm:dark:text-blue-200"> WE SOLVE DIGITAL </strong>
@@ -70,7 +70,7 @@ const Header = () => {
           <span className="py-2 px-4 bg-red-500 text-mobile-secondary-text text-white  lg:w-1/2 rounded-lg">Error</span>
         )}
       </div>
-      <div className="flex justify-center  2xl:order-2 order-1">
+      <div className="flex justify-center  lg:order-2 order-1">
         <Image className="object-contain" alt="Jasa Pembuatan Website" width={512} height={463} src="/img/home/homeBg.png" />
       </div>
     </div>

@@ -8,7 +8,7 @@ const ServiceContent = ({ services }) => {
       <div className="flex-1 flex-col my-8 ">
         <h2 className="font-bold text-2xl sm:text-3xl capitalize text-primary dark:text-white">Can we help you ?</h2>
       </div>
-      <div className="gap-8 2xl:gap-3 grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 ">
+      <div className="gap-8 lg:gap-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
         {services.map((service, index) => {
           return (
             <div key={index} className="flex justify-start ">
