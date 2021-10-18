@@ -36,7 +36,9 @@ const about = () => {
               <strong className="sm:text-4xl sm:text-blue-700 sm:dark:text-blue-200"> About Logo </strong>
             </h1>
           </div>
-          <p className="text-gray-700 text-base sm:text-lg font-light my-4 dark:text-gray-300">We are a partner who is ready to help meet the needs of web development, android developer, and graphic design services </p>
+          <p className="text-gray-700 text-base sm:text-lg font-light my-4 dark:text-gray-300">
+            The combination of the word "! LOSE" which means "NOT LOSE" and there is a cursor sign (hint), which means something must have a purpose and we must have a winning spirit
+          </p>
         </div>
         <div className="flex  justify-center">
           <Image className="object-contain" alt="Jasa Pembuatan Website" width={180} height={180} src="/img/logo.png" />
