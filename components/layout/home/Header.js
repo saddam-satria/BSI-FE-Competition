@@ -35,7 +35,7 @@ const Header = () => {
             <br className="hidden sm:block" /> PROBLEM OF YOUR BUSINESS!
           </h1>
         </div>
-        <p className="text-gray-700 text-base sm:text-lg font-light my-4 dark:text-gray-300">
+        <p className="text-gray-700 text-justify text-base sm:text-lg font-light my-4 dark:text-gray-300">
           We can help your business become a full service technology. In today's era a business must use digital technology. We are technology professionals, trust us, then your business will become a digital technology service{' '}
         </p>
         <div className="py-5">
