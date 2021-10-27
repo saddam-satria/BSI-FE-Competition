@@ -93,7 +93,7 @@ const Home = () => {
       img: '/img/home/androidService.png',
     },
     {
-      title: 'graphics desgin',
+      title: 'graphics design',
       subTitle: 'we design for your brand',
       desc: 'graphic design can help you to create amazing content, you only need to give your ideas or submit everything to us, then we will immediately make it in the form of graphic design',
       link: 'graphics',
